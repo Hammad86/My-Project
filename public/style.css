@@ -1,0 +1,221 @@
+.navbar{
+    background-color:#f35159 !important;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.logo{
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+.fa-shopping-cart ,.fa-user-circle{
+    font-size: 30px !important;
+    color: seashell !important;
+}
+
+.fa-truck ,.fa-headphones,.fa-check-circle-o{
+    font-size: 50px !important;
+    color: #f35159 !important;
+
+}
+
+.mainCard{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 2px 3px 5px gray;
+}
+
+.txtCard{
+    color: #f35159 ;
+}
+
+.newArrivals{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.strike{
+    color: silver;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    margin: 20px 0 20px 0;
+}
+
+.imgCard{
+    width: auto !important;
+    height: 250px !important;
+}
+
+.heading{
+    text-align: center;
+    color: #f35159;
+    letter-spacing: 1em;
+    margin: 20px;
+}
+
+.heading > h1{
+    text-shadow: 5px 5px 10px black;
+    font-size: 50px;
+}
+
+.footer{
+    margin-top: 30px;
+    background-color: rgb(204, 44, 66);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.txtfoot{
+    display: flex;
+    align-items: center;
+}
+.txtfoot > p{
+    color: white;
+}
+
+.fa-instagram,.fa-google-plus-square,.fa-twitter-square,.fa-facebook-square,.fa-whatsapp{
+    font-size: 25px !important;
+    color: white ;
+    margin-left: 10px;
+}
+
+.conIcon{
+    color:white;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.about{
+    position: static;
+    background-color: floralwhite;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.div1{
+    margin: 30px 0 30px 0;
+}
+
+.fa-commenting{
+    font-size: 250px !important;
+    color: red;
+}
+
+.contact-image{
+    
+}
+
+.contact-form{
+    background: #fff;
+    width: 70%;
+}
+
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+.fa-shopping-bag{
+    margin-right: 10px;
+}
+.btnup{
+    position: fixed;
+    bottom: 5%;
+    left:  4%;
+}
+
+.fa-chevron-circle-up{
+    font-size: 50px !important;
+    color: gainsboro;
+}
+.fa-chevron-circle-up:hover {
+    color: gold;
+}
+
+.imgW{
+    width: 100%;
+    height: 100%;
+}
+.whatsImg{
+    position: fixed;
+    bottom: 0%;
+    right: 3%;
+    width: 60px;
+    height: 60px;
+}
