@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 100px;
+}
+
+.nav-item > a{
+    color: #198754;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.nav-item > a:hover{
+    color: #fff;
+}
+
+form > input,button{
+    font-size: 1.2rem !important;
+}
+
+.slide-img{
+    width: 100vw;
+    height: 80vh;
+}
+
+.first-section > h1,p{
+    margin: 20px 0;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+.row-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer, footer > p{
+    margin-bottom: 0;
+    color: #fff;
+}
